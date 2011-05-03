@@ -2,7 +2,7 @@
 require File.expand_path("../lib/google_weather/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "google-weather"
+  s.name        = "google_weather"
   s.version     = GoogleWeather::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["John Nunemaker"]
