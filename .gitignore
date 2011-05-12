@@ -5,3 +5,4 @@ rdoc
 pkg
 .bundle
 vendor/ruby
+Gemfile.lock
