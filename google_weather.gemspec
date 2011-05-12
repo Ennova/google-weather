@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
   s.executables  = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
   s.require_path = 'lib'
   s.extra_rdoc_files = ["README.rdoc", "LICENSE"]
-  s.has_rdoc = true
   s.homepage = "http://github.com/jnunemaker/google-weather"
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
 end
